@@ -17,6 +17,7 @@ public class ServerHi2Application {
 
 	@RequestMapping("/hi")
 	public Object hi(){
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>server-hi inovke.....");
 		return "hellow world";
 	}
 }

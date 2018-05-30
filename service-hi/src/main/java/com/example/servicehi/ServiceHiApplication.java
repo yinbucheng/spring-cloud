@@ -18,6 +18,7 @@ public class ServiceHiApplication {
 
 	@RequestMapping("/hi")
 	public String home(@RequestParam String name) {
+		System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>service-hi  invoke.......");
 		return "hi helloword";
 	}
 }
